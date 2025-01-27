@@ -5,7 +5,7 @@ export default {
   input: 'src/index.js',
   output: {
     format: 'es',
-    file: 'lib/index-esm.js',
+    file: 'lib/lm-esm.js',
     exports: 'default',
   },
   plugins: [nodeResolve(), commonjs()],
